@@ -28,7 +28,7 @@ function Signup() {
           <p className={styles.text}>or</p>
           <button className={styles.google_btn} onClick={googleAuth}>
             <img src="./images/google.png" alt="google icon" />
-            <span>Sing up with Google</span>
+            <span>Sign up with Google</span>
           </button>
           <p className={styles.text}>
             Already Have Account ? <Link to="/login">Log In</Link>
