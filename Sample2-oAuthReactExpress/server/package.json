@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node ./bin/www",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cookie-parser": "^1.4.7",
+        "debug": "^4.4.0",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "google-auth-library": "^9.15.0",
+        "http-errors": "^2.0.0",
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.9",
+        "pug": "^3.0.3"
+    }
+}
